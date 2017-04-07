@@ -1,0 +1,205 @@
+/*header开始*/
+.header{
+    min-height: 1000px;
+    background:url("../image/banner.jpg") no-repeat;
+}
+.nav-word .index{
+    background:#9eca57;
+    
+}
+.header-img .word{
+    width:500px;
+    height:250px;
+    margin:200px 0 0 10px;
+}
+.header-img .download{
+    width:200px;
+    height:100px;
+    margin:40px 0 0 170px;
+}
+.header-nav{
+    background:rgba(252, 252, 252, 0.5);
+}
+
+/*header结束*/
+/*main开始*/
+.main{
+    margin-top:20px;
+}
+.main .main-one,.main .main-two,.main .main-three{
+    width:390px;
+    height:340px;
+    border:1px solid #ccc;
+    float:left;
+}
+.main .main-news,.main .main-activity,.main .main-professor{
+    width:300px;
+    height:65px;
+    line-height:65px;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.main .main-news h1,.main .main-activity h1,.main .main-professor h1{
+    color:#9eca57;
+    font-size: 24px;
+    float:left;
+}
+.main .main-news a,.main .main-activity a,.main .main-professor a{
+    float:right;
+}
+.main .main-two{
+    margin:0 12px 0 12px;
+}
+.main .main-one .main-news-message,.main .main-two .main-activity-message,.main .main-three .main-professor-message{
+    width:300px;
+    height:260px;
+    margin:20px auto;
+
+}
+.main .main-one .main-news-message a{
+    display:block;
+    margin:25px 0 35px 0;
+}
+.main-news-message .message-caption,.main-activity-word .word-caption{
+    font:bold 18px "微软雅黑";
+    text-align: center;
+}
+.main-news-message .message-content,.main-activity-word .word-content{
+    font-size: 12px;
+    text-indent: 2em;
+}
+.main-activity-message-box{
+    height:120px;
+    margin-top:10px;
+}
+.main-activity-message .main-activity-picture{
+    float:left;
+}
+.main-activity-message .main-activity-word{
+    float:left;
+    width:180px;
+    height:100px;
+    margin:5px 0 0 10px;   
+}
+.main-activity-message .main-activity-word a{
+    display:block;
+    margin-bottom:10px;
+}
+.main-activity-message .main-activity-word button{
+    width:100px;
+    height:25px;
+    color:#3c3c3c;
+    border:1px solid #ccc;
+    background:#fff;
+}
+.main-activity-message .main-activity-word button a{
+    line-height: 25px;
+}
+.main-activity-word button a:hover{
+    background:#9eca57;
+    color:#fff;
+}
+.professor-message-caption li,.professor-message-content li{
+    margin-bottom:22px;
+}
+.professor-message-caption li a{
+    padding-right:10px;
+    border-right:1px solid #666;
+}
+.professor-message-content li a{
+    margin-left:10px;
+}
+/*main结束*/
+/*picture开始*/
+.picture{
+    margin-top: 20px;
+    height:630px;
+    border:1px solid #ccc;
+}
+.picture .picture-box{
+    
+    height:830px;
+    margin:20px auto;
+}
+.picture-box .picture-box-title{
+    width:1090px;
+    height:65px;
+    line-height:65px;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.picture-box .picture-box-title h1{
+    color:#9eca57;
+    font-size: 24px;
+    float:left;
+}
+.picture-box .picture-box-title a{
+    float:right;
+}
+.picture-box .picture-box-content a{
+    display:block;
+    width:220px;
+    height:220px;
+    float:left;
+    margin:30px 20px 20px 50px;
+}
+/*picture结束*/
+/*Pet encyclopedia开始*/
+.Pet-encyclopedia{
+    margin-top: 20px;
+    height:870px;
+    border:1px solid #ccc;
+}
+.Pet-encyclopedia .Pet-encyclopedia-box{
+    height:830px;
+    margin:20px auto;
+}
+.Pet-encyclopedia-box .encyclopedia-box-title{
+    width:1090px;
+    height:65px;
+    line-height:65px;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.encyclopedia-box-title h1{
+    color:#9eca57;
+    font-size: 24px;
+    float:left;
+}
+.encyclopedia-box-title a{
+    float:right;
+}
+.encyclopedia-box-content{
+   
+    height:764px;
+    margin-left:20px ;
+}
+.encyclopedia-box-content-dog{
+    width:275px;
+    height:360px;
+    float:left;
+    margin-left:12px;
+    position:relative;
+    margin-top: 25px; 
+    border:1px solid #ccc;
+}
+.encyclopedia-box-content-dog a{
+    display:block;
+    
+}
+.encyclopedia-box-content-dog .dog-name{
+    font-size: 20px;
+    margin:10px 0 0 5px;
+    text-align: center;
+}
+.encyclopedia-box-content-dog .dog-content{
+    text-indent: 2em;
+    margin:10px 0 0 5px;
+    line-height: 25px;
+}
+.encyclopedia-box-content-dog .dog-more{
+    position:absolute;
+    top:323px;
+    right:8px;
+}
+/*Pet encyclopedia结束*//* 

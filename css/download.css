@@ -1,0 +1,34 @@
+/*header开始*/
+.header{
+    min-height: 1000px;
+    background:url("../image/banner3.jpg") no-repeat;
+
+}
+.nav-word .index{
+    background:#9eca57;
+}
+.header-img{
+    position: relative;
+    height:900px;
+}
+.header-img .header-img-box{
+    position: absolute;
+    top: 200px;
+    left:20px;
+}
+.header-img .header-img-box a{
+    display: block;
+    margin-top: 40px;
+}
+.header-img .download-phone{
+    width:425px;
+    height:695px;
+    position: absolute;
+    top:206px;
+    left:800px;
+}
+.header-nav{
+    background:rgba(203, 203, 203, 0.7);
+}
+
+/*header结束*/
